@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <table style="margin: 0 auto;">
+        <tr>
+            <td>
+                아이디
+            </td>
+            <td>
+                <input id="id_input" pattern="[A-Za-z0-9]+" autocomplete="off"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                비번
+            </td>
+            <td>
+                <input id="pw_input" autocomplete="off"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                비번 확인
+            </td>
+            <td>
+                <input id="pw_repeat_input" autocomplete="off"/>
+            </td>
+        </tr>
+    </table>
+    <div style="text-align: center;">
+        <button id="join_button">가입하기</button>
+    </div>
+    <script src="./join.js"></script>
+</body>
+<style>
+    body {
+        width: 300px;
+    }
+</style>
+
+</html>
